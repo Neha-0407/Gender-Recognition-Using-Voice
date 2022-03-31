@@ -7,12 +7,13 @@ Trained the model on 7 different classifiers by keeping training dataset size = 
 
 For all the 7 classifiers, I did hyperparameter tuning using gridsearchcv to find the best parameters and did the Recursive Feature Elimination.
 
-1. Decision Tree
+Decision Tree
+----------------------------------------------------
 
 Decision Tree Accuracy Score:  0.9511041009463722
 
 Classification Report
-----------------------------------------------------
+
   precision    recall  f1-score   support
 
            0       0.95      0.96      0.95       324
@@ -23,12 +24,13 @@ Classification Report
 weighted avg       0.95      0.95      0.95       634
 
 
-2. Random Forest
+Random Forest
+----------------------------------------------------
 
 Random Forest Accuracy Score:  0.9747634069400631
 
 Classification Report
-----------------------------------------------------
+
 precision    recall  f1-score   support
 
            0       0.97      0.98      0.98       324
@@ -39,12 +41,13 @@ precision    recall  f1-score   support
 weighted avg       0.97      0.97      0.97       634
 
 
-3. Gradient Boosting
+Gradient Boosting
+----------------------------------------------------
 
 Gradient Boosting Accuracy Score: 0.97003
 
 Classification Report
-----------------------------------------------------
+
 
  precision    recall  f1-score   support
 
@@ -56,12 +59,12 @@ Classification Report
 weighted avg     0.9701    0.9700    0.9700       634
 
 
-4. K Nearest Neighbours
+K Nearest Neighbours
+----------------------------------------------------
 
 K Nearest Neighbours Accuracy Score: 0.9810725552050473
 
 Classification Report
-----------------------------------------------------
 
 precision    recall  f1-score   support
 
@@ -73,12 +76,12 @@ precision    recall  f1-score   support
 weighted avg     0.9811    0.9811    0.9811       634
 
 
-5. Support Vector Machine
+Support Vector Machine
+----------------------------------------------------
 
 Support Vector Machine Accuracy Score   :   0.9826498422712934
 
 Classification Report
-----------------------------------------------------
 
 precision    recall  f1-score   support
 
@@ -90,12 +93,12 @@ precision    recall  f1-score   support
 weighted avg     0.9827    0.9826    0.9827       634
 
 
-6. Logistic Regression
+Logistic Regression
+----------------------------------------------------
 
 Logistic Regression Accuracy Score   :    0.9810725552050473
 
 Classification Report
-----------------------------------------------------
 
 precision    recall  f1-score   support
 
@@ -106,6 +109,9 @@ precision    recall  f1-score   support
    macro avg       0.98      0.98      0.98       634
 weighted avg       0.98      0.98      0.98       634
 
-7. Ensemble  - In this model,we predicted the output using 3 different base models SVM,KNN and Logistic regression.
+Ensemble  
+----------------------------------------------------
+
+In this model,we predicted the output using 3 different base models SVM,KNN and Logistic regression.
 
 Ensemble Accuracy Score:    0.9873817034700315
