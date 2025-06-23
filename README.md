@@ -10,56 +10,54 @@ For all the 7 classifiers, I did hyperparameter tuning using gridsearchcv to fin
 Decision Tree
 ----------------------------------------------------
 
-Accuracy score :0.9511041009463722
-Precision score :0.9543973941368078
-Recall score :0.9451612903225807
-F1 score :0.9497568881685575
-
+- **Accuracy Score:** 0.9511
+- **Precision Score:** 0.9544
+- **Recall Score:** 0.9452
+- **F1 Score:** 0.9498
 
 Random Forest
 ----------------------------------------------------
 
-Accuracy score :0.9747634069400631
-Precision score :0.9803921568627451
-Recall score :0.967741935483871
-F1 score :0.9740259740259739
+- **Accuracy Score:** 0.9748
+- **Precision Score:** 0.9804
+- **Recall Score:** 0.9677
+- **F1 Score:** 0.9740
 
 Gradient Boosting
 ----------------------------------------------------
 
-Accuracy score :0.9700315457413249
-Precision score :0.9739413680781759
-Recall score :0.964516129032258
-F1 score :0.9692058346839546
+- **Accuracy Score:** 0.9700
+- **Precision Score:** 0.9739
+- **Recall Score:** 0.9645
+- **F1 Score:** 0.9692
 
 K Nearest Neighbours
 ----------------------------------------------------
 
-Accuracy score :0.9810725552050473
-Precision score :0.9821958456973294
-Recall score :0.9821958456973294
-F1 score :0.9821958456973294
+- **Accuracy Score:** 0.9811
+- **Precision Score:** 0.9822
+- **Recall Score:** 0.9822
+- **F1 Score:** 0.9822
 
 Support Vector Machine
 ----------------------------------------------------
 
-Accuracy score :0.9826498422712934
-Precision score :0.9880239520958084
-Recall score :0.9792284866468842
-F1 score :0.9836065573770492
-
+- **Accuracy Score:** 0.9826
+- **Precision Score:** 0.9880
+- **Recall Score:** 0.9792
+- **F1 Score:** 0.9836
 
 Logistic Regression
 ----------------------------------------------------
 
-Accuracy Score   : 0.9810725552050473
+- **Accuracy Score:** 0.9811
 
-Ensemble  
+Ensemble
 ----------------------------------------------------
 
-In this model,we predicted the output using 3 different base models SVM,KNN and Logistic regression.
+In this model, we predicted the output using 3 different base models: SVM, KNN, and Logistic Regression.
 
-Accuracy score :0.9873817034700315
-Precision score :0.991044776119403
-Recall score :0.9851632047477745
-F1 score :0.9880952380952381
+- **Accuracy Score:** 0.9874
+- **Precision Score:** 0.9910
+- **Recall Score:** 0.9852
+- **F1 Score:** 0.9881
